@@ -1,0 +1,147 @@
+.indicator-gray,
+.indicator-grey {
+  background: #B8C2CC;
+}
+
+.indicator-info {
+  background: var(--info);
+}
+
+.indicator-danger {
+  background: var(--danger);
+}
+
+.indicator-warning {
+  background: var(--warning);
+}
+
+.indicator-success {
+  background: var(--success);
+}
+
+.indicator-black {
+  background: #22292F;
+  color: #000;
+
+  svg {
+    fill: #000;
+  }
+}
+
+.indicator-red {
+  background: #E3342F;
+  color: #800000;
+
+  svg {
+    fill: #800000;
+  }
+}
+
+.indicator-orange {
+  background: #F6993F;
+  color: #9b4d00;
+
+  svg {
+    fill: #9b4d00;
+  }
+}
+
+.indicator-yellow {
+  background: #FFED4A;
+  color: #997300;
+
+  svg {
+    fill: #997300;
+  }
+}
+
+.indicator-green {
+  background: #38C172;
+  color: #006837;
+
+  svg {
+    fill: #006837;
+  }
+}
+
+.indicator-teal {
+  background: #4DC0B5;
+  color: #005751;
+
+  svg {
+    fill: #005751;
+  }
+}
+
+.indicator-blue {
+  background: #3490DC;
+  color: #003366;
+
+  svg {
+    fill: #003366;
+  }
+}
+
+.indicator-indigo {
+  background: #6574CD;
+  color: #00204e;
+
+  svg {
+    fill: #00204e;
+  }
+}
+
+.indicator-purple {
+  background: #9561E2;
+  color: #33007e;
+
+  svg {
+    fill: #33007e;
+  }
+}
+
+.indicator-pink {
+  background: #F66D9B;
+  color: #9b004b;
+
+  svg {
+    fill: #9b004b;
+  }
+}
+
+.status-indicator {
+  padding: 3px 20px;
+  border-radius: 20px;
+  display: inline-flex;
+  position: relative;
+  font-weight: bold;
+  font-size: 12px;
+
+  &.w-icon {
+    padding-left: 30px;
+  }
+
+  svg {
+    height: 18px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    width: 18px;
+    margin: auto;
+  }
+}
+
+
+.spinner {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "malasuerte94/nova-status-indicator",
+  "description": "A Laravel Nova 4 Indicator Status Field",
+  "keywords": [
+    "laravel",
+    "nova",
+    "nova-4",
+    "field",
+    "status",
+    "indicator"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Malasuerte94\\Fields\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Malasuerte94\\Fields\\IndicatorFieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
