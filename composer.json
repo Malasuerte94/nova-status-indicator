@@ -1,6 +1,6 @@
 {
   "name": "malasuerte94/nova-status-indicator",
-  "description": "A Laravel Nova 4 Indicator Status Field",
+  "description": "Laravel Nova 4 Indicator Status Field",
   "keywords": [
     "laravel",
     "nova",
